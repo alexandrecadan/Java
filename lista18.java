@@ -3,7 +3,7 @@ import java.net.*;
 import java.util.Scanner;
 
 //programa inverte o nome
-class NomeAoContrario {
+class lista18 {
 	public static void main(String[] args){
 		
 		//descobrir como pegar o tamanho do array com length

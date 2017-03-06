@@ -3,7 +3,7 @@ import java.net.*;
 import java.util.Scanner;
 
 //faz as 4 operações básicas
-class Calculadora {
+class lista19 {
 	public static void main(String[] args){
 		
 		float arg1 = 0, arg2 = 0, resultado = 0;
@@ -42,4 +42,3 @@ class Calculadora {
 	}
 	
 }
-	
