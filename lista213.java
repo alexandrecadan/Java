@@ -7,7 +7,7 @@ public class lista213 {
 	//método responsável por fazer cálculos da calculadora
 	public static void main(String[] args){
 
-		int entrada, aux1, aux2;
+		int entrada, aux1, aux2, i;
 		int fibonacci[] = new int[100];
 
 		System.out.println("Insira um número inteiro positivo: ");
@@ -17,13 +17,14 @@ public class lista213 {
 		fibonacci[0] = 0;
 		fibonacci[1] = 1;
 
-		for (int i = 0; fibonacci[i] < entrada ; i++ ) {
+		for (i = 0; fibonacci[i] < entrada ; i++ ) {
 			
 			fibonacci[i+2] = fibonacci[i+1] + fibonacci[i]; 
 
 			System.out.printf("%d, ", fibonacci[i]);
 
 		}
+		System.out.printf("%d ", fibonacci[i]);
 		System.out.println();
 
 	}
