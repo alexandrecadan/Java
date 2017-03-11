@@ -8,7 +8,7 @@ public class lista25 {
 	public static void main(String[] args){
 
 		//variáveis
-		int quantidadeDvds, quantidadeAlugaMes;
+		double quantidadeDvds, quantidadeAlugaMes;
 		double valorCada, faturamentoAnual, faturamentoMultas, quantidadeAtrasadas;
 
 		//leitura das variáveis
@@ -21,10 +21,10 @@ public class lista25 {
 		valorCada = scnVlrCada.nextDouble();
 
 		//calcula a quantidade de DVDS alugadas por mês
-		quantidadeAlugaMes = (quantidadeDvds/3);
+		quantidadeAlugaMes = (quantidadeDvds/3.0);
 
 		//calcula o faturamento total anual
-		faturamentoAnual = ((quantidadeAlugaMes*12)*valorCada);
+		faturamentoAnual = ((quantidadeAlugaMes*12.0)*valorCada);
 		
 		//quantidade de DVDS atrasados
 		quantidadeAtrasadas = (quantidadeAlugaMes/10.0);
